@@ -1,6 +1,6 @@
 const data = require('./data')
-const api = require('./api')
-const app = require('./app')
+//const api = require('./api')
+//const app = require('./app')
 
 describe('data', () => {
   test('users',  () => {
@@ -10,7 +10,7 @@ describe('data', () => {
     expect(data.posts).toHaveLength(3)
   })
 })
-
+    /*
 describe('api', () => {
   test('getUserById', done => {
     expect.assertions(1)
@@ -45,3 +45,4 @@ describe('app', () => {
     })
   })
 })
+*/
